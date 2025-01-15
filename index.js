@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // Token do seu bot
-const token = '7977421119:AAH5PkWqTt0hgMUeSbXLY4kg-AklDaXcvsc';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 
 // Lista de números banidos
